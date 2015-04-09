@@ -4,14 +4,14 @@
 
 #include "defs.h"
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
 
 #if OS(Linux)
 typedef long long  hrtime_t;
 extern             hrtime_t gethrtime();
 #else   /* OS(Linux) */
-#include <sys/time.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/time.h"
 #endif  /* OS(Linux) */
 
 extern  int get_clock_rate(void);

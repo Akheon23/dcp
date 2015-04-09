@@ -97,7 +97,7 @@
 #define WSIZE_32	1
 
 #else
-#error "Undefined platform"
+
 #endif
 
 #endif /* _MPMT_DEF_H */

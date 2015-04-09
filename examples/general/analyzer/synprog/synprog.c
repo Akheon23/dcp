@@ -2,25 +2,25 @@
 /* synprog.c - synthetic program to use for testing performance tools */
 
 #include	"defs.h"
-#include	<sys/types.h>
-#include        <sys/param.h>
-#include	<sys/wait.h>
-#include        <sys/ucontext.h>
-#include	<stdlib.h>
-#include	<stdio.h>
-#include	<errno.h>
-#include	<signal.h>
-#include	<unistd.h>
+#include	"/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include        "/storage/extSdCard/TREE/usr/include/sys/param.h"
+#include	"/storage/extSdCard/TREE/usr/include/sys/wait.h"
+#include        "/storage/extSdCard/TREE/usr/include/sys/ucontext.h"
+#include	"/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include	"/storage/extSdCard/TREE/usr/include/stdio.h"
+#include	"/storage/extSdCard/TREE/usr/include/errno.h"
+#include	"/storage/extSdCard/TREE/usr/include/signal.h"
+#include	"/storage/extSdCard/TREE/usr/include/unistd.h"
 #if OS(Solaris)
-#include	<sys/processor.h>
-#include	<strings.h>
-#include        <procfs.h>
+#include	"/storage/extSdCard/TREE/usr/include/sys/processor.h"
+#include	"/storage/extSdCard/TREE/usr/include/strings.h"
+#include        "/storage/extSdCard/TREE/usr/include/procfs.h"
 #else /* OS(Solaris) */
-#include	<string.h>
+#include	"/storage/extSdCard/TREE/usr/include/string.h"
 #endif /* OS(Solaris */
 
-#include	<dlfcn.h>
-#include        <fcntl.h>
+#include	"/storage/extSdCard/TREE/usr/include/dlfcn.h"
+#include        "/storage/extSdCard/TREE/usr/include/fcntl.h"
 #include	"stopwatch.h"
 
 int	get_ncpus();

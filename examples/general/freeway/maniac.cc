@@ -8,7 +8,7 @@
 
 // Praveen 
 // #include <stream.h>    // maniac.h will include the correct header
-#include <math.h>
+#include "/storage/extSdCard/TREE/usr/include/math.h"
 #include "vehicle_list.h"
 #include "maniac.h"
 

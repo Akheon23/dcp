@@ -5,23 +5,23 @@
 #include	"defs.h"
 #if OS(Solaris)
 #pragma ident "@(#)gethrtime.c 1.13 07/03/14"
-#include <sys/systeminfo.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/systeminfo.h"
 #define _STRUCTURED_PROC 1
-#include <sys/procfs.h>
-#include <sys/types.h>
-#include <fcntl.h>
-#include <sys/processor.h>
-#include <sys/procset.h>
-#include <sys/lwp.h>
-#include <errno.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/procfs.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include "/storage/extSdCard/TREE/usr/include/fcntl.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/processor.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/procset.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/lwp.h"
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
 #endif	/* OS(Solaris) */
 
-#include	<unistd.h>
-#include	<string.h>
-#include	<stdio.h>
-#include	<stdlib.h>
-#include	<sys/resource.h>
-#include	<sys/time.h>
+#include	"/storage/extSdCard/TREE/usr/include/unistd.h"
+#include	"/storage/extSdCard/TREE/usr/include/string.h"
+#include	"/storage/extSdCard/TREE/usr/include/stdio.h"
+#include	"/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include	"/storage/extSdCard/TREE/usr/include/sys/resource.h"
+#include	"/storage/extSdCard/TREE/usr/include/sys/time.h"
 
 /* =============================================================== */
 /*
@@ -142,8 +142,8 @@ get_ncpus(void) {
 
 #if OS(Solaris)
 /* no need define gethrtime() or gethrvtime() */
-#include <sys/types.h>      /* processor_info_t     */
-#include <sys/processor.h>      /* processor_info_t     */
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"      /* processor_info_t     */
+#include "/storage/extSdCard/TREE/usr/include/sys/processor.h"      /* processor_info_t     */
 
 #else /* OS(Solaris) */
 

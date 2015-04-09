@@ -4,10 +4,10 @@
  *
  */
 
-#include <limits.h>
-#include <malloc.h>
-#include <stdio.h>
-#include <string.h>
+#include "/storage/extSdCard/TREE/usr/include/limits.h"
+#include "/storage/extSdCard/TREE/usr/include/malloc.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/string.h"
 
 struct cd_track {
   char *name; 

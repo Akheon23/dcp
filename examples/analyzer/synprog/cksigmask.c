@@ -3,15 +3,15 @@
 #include "defs.h"
 #if OS(Solaris)
 
-#include <signal.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/lwp.h>
-#include <dlfcn.h>
+#include "/storage/extSdCard/TREE/usr/include/signal.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/lwp.h"
+#include "/storage/extSdCard/TREE/usr/include/dlfcn.h"
 
 #ifdef HWC
-#include <libcpc.h>
-#include <errno.h>
+#include "/storage/extSdCard/TREE/usr/include/libcpc.h"
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
 cpc_event_t	sample;
 cpc_event_t	previous_sample;
 static	int	no_previous_sample = 1;

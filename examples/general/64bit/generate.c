@@ -9,7 +9,7 @@
 
 #include "common.h"
 
-#include <time.h>                            /* time()                       */
+#include "/storage/extSdCard/TREE/usr/include/time.h"                            /* time()                       */
 
 static    time_t    seed;                    /* seed for random # generator  */
 

@@ -5,7 +5,7 @@
 #ifndef VEHICLE_LIST_H
 #define VEHICLE_LIST_H
 
-#include <string.h>
+#include "/storage/extSdCard/TREE/usr/include/string.h"
 
 #include "vehicle.h"
 

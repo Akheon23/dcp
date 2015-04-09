@@ -3,5 +3,5 @@
 /*  opening brace of function, second-level include */
  
 
-{
+
 #include "inc_body.h"

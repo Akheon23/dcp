@@ -1,9 +1,9 @@
 /* Copyright 02/04/2000 Sun Microsystems, Inc. All Rights Reserved */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
 #include "stopwatch.h"
 
 /*=======================================================*/

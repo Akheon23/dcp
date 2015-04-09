@@ -6,8 +6,8 @@
 // Implementation of vehicle class for "Freeway".
 //
 
-#include <stdlib.h>
-#include <math.h>
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/math.h"
 #include "vehicle.h"
 #include "vehicle_list.h"
 

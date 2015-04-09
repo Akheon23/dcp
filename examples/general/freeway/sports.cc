@@ -9,7 +9,7 @@
 
 // Praveen 
 // #include <stream.h>    // sports.h will include the correct header
-#include <math.h>
+#include "/storage/extSdCard/TREE/usr/include/math.h"
 #include "vehicle.h"
 #include "sports.h"
 

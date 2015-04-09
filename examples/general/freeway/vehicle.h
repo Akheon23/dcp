@@ -9,10 +9,10 @@
 // Header file for vehicle class for "Freeway".
 //
 
-#include <iostream.h>
-#include <fstream.h>
+#include "/sdcard/Android/data/me.sheimi.sgit/files/repo/pittsfield/iostream.h"
+#include "/sdcard/Android/data/me.sheimi.sgit/files/repo/pittsfield/fstream.h"
 
-#include <X11/Xlib.h>
+#include "/storage/extSdCard/TREE/usr/include/X11/Xlib.h"
 
 #define CLASS_VEHICLE 0
 

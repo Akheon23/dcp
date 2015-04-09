@@ -1,7 +1,7 @@
 /* Copyright 02/04/2000 Sun Microsystems, Inc. All Rights Reserved */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
 #include "defs.h"
 #include "stopwatch.h"
 

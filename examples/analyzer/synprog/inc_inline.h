@@ -1,10 +1,10 @@
 /* Copyright 02/04/2000 Sun Microsystems, Inc. All Rights Reserved */
 
-#if COMPILER(SUN)
+
 #pragma inline (ext_inline_code)
-#else
+
 void ext_inline_code() __attribute__ ((always_inline));
-#endif
+
 
 
 void

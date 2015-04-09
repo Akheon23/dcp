@@ -1,9 +1,9 @@
 /* Copyright 02/04/2000 Sun Microsystems, Inc. All Rights Reserved */
 /*=======================================================*/
 /* parameters defining various tasks */
-#include <stdio.h>
-#include <stdlib.h>
-#include <dlfcn.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/dlfcn.h"
 #include "stopwatch.h"
 
 

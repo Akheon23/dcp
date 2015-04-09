@@ -2,7 +2,7 @@
 ** @(#)wtime.c 1.3 05/01/28 SMI
 */
 
-#include <sys/time.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/time.h"
 
 double wtime()
 {
@@ -20,13 +20,13 @@ double wtime_()
     return(wtime());
 }
 
-#include <stdio.h>
-#include <errno.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/processor.h>
-#include <sys/procset.h>
-#include <stdlib.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
+#include "/storage/extSdCard/TREE/usr/include/string.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/processor.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/procset.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
 
 extern int pbind_(int*);
 

@@ -6,11 +6,11 @@
  */
 
 #include "common.h"
-#include <sys/stat.h>
-#include <unistd.h>
-#include <fcntl.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/stat.h"
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
+#include "/storage/extSdCard/TREE/usr/include/fcntl.h"
 /* mmap */
-#include <sys/mman.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/mman.h"
 
 #define PERMS 0644
 

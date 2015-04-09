@@ -8,13 +8,13 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <strings.h>
-#include <assert.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/strings.h"
+#include "/storage/extSdCard/TREE/usr/include/assert.h"
 
-#include <limits.h>                          /* USHRT_MAX, LONG_MAX          */
-#include <sys/types.h>                       /* time_t, ushort_t, size_t     */
+#include "/storage/extSdCard/TREE/usr/include/limits.h"                          /* USHRT_MAX, LONG_MAX          */
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"                       /* time_t, ushort_t, size_t     */
 
 typedef   ushort_t   item_type;              /* type of item stored in array */
 #define   ITEM_MAX   USHRT_MAX               /* max value                    */

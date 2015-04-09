@@ -3,20 +3,20 @@
 #include "defs.h"
 
 #if OS(Solaris)
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <sys/lwp.h>
-#include <signal.h>
-#include <siginfo.h>
-#include <strings.h>
-#include <dlfcn.h>
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/lwp.h"
+#include "/storage/extSdCard/TREE/usr/include/signal.h"
+#include "/storage/extSdCard/TREE/usr/include/siginfo.h"
+#include "/storage/extSdCard/TREE/usr/include/strings.h"
+#include "/storage/extSdCard/TREE/usr/include/dlfcn.h"
 
 #ifdef SOLARIS	/* the thread model, not the OS */
-#include <thread.h>
+#include "/storage/extSdCard/TREE/usr/include/thread.h"
 #endif
 #ifdef POSIX
-#include <pthread.h>
+#include "/storage/extSdCard/TREE/usr/include/pthread.h"
 #endif
 
 static void	initcksig();

@@ -2,20 +2,20 @@
 
 #include "defs.h"
 #define _STRUCTURED_PROC 1
-#include <stdio.h>
-#include <stdlib.h>
-#include <strings.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/strings.h"
 
 #if OS(Solaris)
-#include <sys/systeminfo.h>
-#include <sys/procfs.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/systeminfo.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/procfs.h"
 #endif /*  OS(Solaris) */
 
-#include <errno.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/stat.h"
+#include "/storage/extSdCard/TREE/usr/include/fcntl.h"
 
 #include "stopwatch.h"
 

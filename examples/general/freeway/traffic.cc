@@ -7,8 +7,8 @@
 //
 //
 
-#include <X11/Xos.h>
-#include <X11/Xlib.h>
+#include "/storage/extSdCard/TREE/usr/include/X11/Xos.h"
+#include "/storage/extSdCard/TREE/usr/include/X11/Xlib.h"
 
 
 
@@ -25,10 +25,10 @@
 #include "police.h"
 
 
-#include <stdio.h>
-#include <math.h>
-#include <sys/param.h>
-#include <sys/types.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/math.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/param.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
 
 #include "window_ui.h"
 #include "traffic.h"

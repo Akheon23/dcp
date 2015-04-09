@@ -2,27 +2,27 @@
 /* mttest -- show threaded use of global and local locks */
 
 #include "defs.h"
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/time.h>
-#include <sys/ipc.h>
-#include <sys/sem.h>
-#include <stdio.h>
-#include <malloc.h>
-#include <string.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/stat.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/time.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/ipc.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/sem.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/malloc.h"
+#include "/storage/extSdCard/TREE/usr/include/string.h"
 
 #if OS(Solaris)
-#include <sys/processor.h>
-#include <sys/procset.h>
-#include <sys/lwp.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/processor.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/procset.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/lwp.h"
 #endif /* OS(Solaris) */
 
-#include <strings.h>
-#include <stdlib.h>
-#include <math.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <assert.h>
+#include "/storage/extSdCard/TREE/usr/include/strings.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/math.h"
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
+#include "/storage/extSdCard/TREE/usr/include/fcntl.h"
+#include "/storage/extSdCard/TREE/usr/include/assert.h"
 
 
 #if OS(Linux)
@@ -34,8 +34,8 @@ extern             hrtime_t gethrvtime();
 #endif /* OS(Linux) */
 
 #ifdef SOLARIS	/* thread model, not OS */
-	#include <thread.h>
-	#include <synch.h>
+	#include "/storage/extSdCard/TREE/usr/include/thread.h"
+	#include "/storage/extSdCard/TREE/usr/include/synch.h"
 	timestruc_t * hrt_to_ts(hrtime_t hrt);
         static const mutex_t mutex_initializer=DEFAULTMUTEX;
 #ifdef BOUND
@@ -46,8 +46,8 @@ extern             hrtime_t gethrvtime();
 #endif
 
 #ifdef POSIX
-	#include <pthread.h>
-	#include <semaphore.h>
+	#include "/storage/extSdCard/TREE/usr/include/pthread.h"
+	#include "/storage/extSdCard/TREE/usr/include/semaphore.h"
 	timespec_t * hrt_to_ts(hrtime_t hrt);
         static const pthread_mutex_t mutex_initializer=PTHREAD_MUTEX_INITIALIZER;
 #ifdef BOUND
@@ -70,15 +70,15 @@ void	start_prof(void);
 void    finish_prof(void);
 #endif
 
-#include <errno.h>
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
 #if OS(Solaris)
-#include <sys/systeminfo.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/systeminfo.h"
 #else
-#include <sys/sysinfo.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/sysinfo.h"
 #endif /* OS(Solaris) */
 #define _STRUCTURED_PROC 1
-#include <sys/procfs.h>
-#include <sys/fcntl.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/procfs.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/fcntl.h"
 
 #define TRUE             1 
 #define FALSE            0

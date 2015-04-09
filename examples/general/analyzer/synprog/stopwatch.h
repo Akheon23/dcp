@@ -6,7 +6,7 @@
 #include "defs.h"
 
 #if OS(Linux)
-#include <time.h>
+#include "/storage/extSdCard/TREE/usr/include/time.h"
 typedef    int     processorid_t;
 typedef long long      hrtime_t;
 typedef struct timespec timespec_t;
@@ -14,10 +14,10 @@ extern hrtime_t gethrtime();
 extern hrtime_t gethrvtime();
 #endif /* OS(Linux) */
 
-#include <sys/time.h>
+#include "/storage/extSdCard/TREE/usr/include/sys/time.h"
 
 extern double testtime;
-char	*prtime (time_t *t);
+char	*prtime ();
 char	*prdelta(struct timeval t);
 void	wlog(char *, char *);
 void	whrlog(hrtime_t delta, char *, char *);

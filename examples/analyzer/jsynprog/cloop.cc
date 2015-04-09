@@ -1,8 +1,8 @@
-#include <jni.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdlib.h>
-#include <sys/time.h>
+#include "/storage/extSdCard/TREE/android/jni.h"
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/time.h"
 #include "jsynprog.h"
 
 typedef long long       hrtime_t;

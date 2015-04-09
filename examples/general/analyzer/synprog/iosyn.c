@@ -1,12 +1,12 @@
 /* Copyright 03/13/06 Sun Microsystems, Inc. All Rights Reserved */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
+#include "/storage/extSdCard/TREE/usr/include/stdio.h"
+#include "/storage/extSdCard/TREE/usr/include/stdlib.h"
+#include "/storage/extSdCard/TREE/usr/include/errno.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/types.h"
+#include "/storage/extSdCard/TREE/usr/include/sys/stat.h"
+#include "/storage/extSdCard/TREE/usr/include/fcntl.h"
+#include "/storage/extSdCard/TREE/usr/include/unistd.h"
 #include "stopwatch.h"
 
 /* parameters defining various tasks */
